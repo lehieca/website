@@ -1,0 +1,103 @@
+ /*Definir la fuente y el color de fondo de la pagina */
+
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: rgb(14, 33, 200);
+}
+/*Definir el estilo del encabezado */
+
+header{
+    overflow: hidden;
+    width: 900px;
+    margin: 10px auto 5px auto;
+}
+
+header #banner{
+    width: 100%;
+    height: 250px;
+}
+
+header #banner figure #imgbanner{
+    overflow: hidden;
+    width: 100px;
+    height: 200px;
+    background: url(img/imgbaner.png);
+    border-radius: 10px;
+}
+
+/*Definir el estilo del menu de navegacion */
+
+nav{
+    background-color: rgb(246, 246, 246);
+    padding: 2%;
+}
+
+ nav ul{
+     list-style-type: none;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: space-between;
+}
+
+nav li {
+    margin: 0 2px;
+}
+
+nav a {
+    color: rgb(125, 205, 236);
+    text-decoration: none; 
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: rgb(236, 234, 167);
+    background-color: #022338;
+}
+
+section{
+    width: 100%;
+    overflow: hidden;
+    background: rgb(136, 194, 235);
+
+}
+
+section #info{
+    overflow: hidden;
+    width: 800px;
+    margin: 0px auto 5px auto;
+}
+
+section #info aside{
+    float: left;
+    width: 220px;
+    background: rgb(136, 194, 235);
+
+}
+
+section #info aside h2{
+    padding: 0px 0px 20px 0px;
+    color: black;
+    letter-spacing: -1px;
+    font-size: 1.5em;
+}
+
+section #info aside{
+    padding: 0px 0px 20px 0px;
+    color: black;
+    letter-spacing: -1px;
+    font-size: 25px;
+}
+
+section #info aside ul li{
+    list-style: none;
+    padding: 15px 0px;
+    border-top: 1px dashed #1a0b81
+}
+
+section #info aside ul li a {
+    text-decoration: none;
+    color: #1171ad;
+    font-size: 16px;
+
+}
